@@ -1,0 +1,678 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Jaro:opsz@6..72&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body {
+    margin: 0;
+    background-color: black;
+    color:aliceblue;
+}
+
+/* Home Page */
+.home-page {
+    border: 2px solid red; /* Red border for Home page */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* About Page */
+.about-page {
+    border: 2px solid blue; /* Blue border for About page */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Resume Page */
+.resume-page {
+    border: 2px solid green; /* Green border for Resume page */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Contact Page */
+.contact-page {
+    border: 2px solid yellow; /* Yellow border for Contact page */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+
+    
+}
+.navbar-left {
+    padding-left: 50px;
+}
+.navbar-right{
+    padding-right:20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.a-element {
+    padding: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85vh;
+    border: 2px solid rgb(237, 4, 43);
+}
+.home-left  {
+    width: 50vw;
+    text-align: right;
+    padding-left: 200px;
+}
+.home-right {
+    width: 50vw;
+    padding-left: 100px;
+}
+.logo-image{
+    height: 90px;
+}
+.home-h1 {
+    font-family: "Playfair Display", serif;
+    
+}
+.home-p {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white */
+    border: 2px solid rgb(237, 4, 43);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333; /* Darker grey for navbar */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 70%;
+}
+
+.home, .resume-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #222; /* Slightly lighter black for sections */
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none; /* Removes the default list bullet */
+    padding: 0;
+}
+
+li {
+    background-color: #333; /* Grey background for list items */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+a {
+    color: #1e90ff; /* Light blue for links for better visibility */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #ccc; /* Light grey for headings */
+}
+body {
+    background-color: #000; /* Sets the entire page background to black */
+    color: #fff; /* Sets the text color to white */
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+}
+.body, html {
+    height: 100%; /* Ensures the full height of the viewport is used */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Provides a clean, readable appearance */
+    background-color: #000; /* Sets the entire page background to black */
+    color: #fff; /* Sets the text color to white */
+}
+
+.navbar {
+    background-color: #333; /* Darker grey for the navbar */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration-color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+/* Ensuring the About Me section container is properly styled */
+/* Specific targeting to avoid conflicts */
+
+#about-container .text-content {
+    text-align: left; /* Ensures text aligns to the left */
+    padding-left: 10px; /* Reduces left padding to bring text closer to the left edge */
+    padding-right: 30px; /* Maintains right padding for overall balance */
+    padding-top: 20px; /* Standard top padding */
+    padding-bottom: 20px; /* Standard bottom padding */
+    margin: 0 auto; /* Centers the text block horizontally if needed */
+    width: 100%; /* Ensures it covers the full width of its parent */
+    max-width: 800px; /* Restricts the maximum width for better readability */
+}
+
+.dark-content-box {
+    background-color: #222; /* Darker than #333 for contrast */
+    color: #fff; /* White text for readability */
+    padding: 15px; /* Padding for spacing inside the box */
+    margin: 10px 0; /* Vertical spacing between boxes */
+    border-radius: 8px; /* Optional: rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: subtle shadow for depth */
+}
+@media (max-width: 600px) {
+    .dark-content-box {
+        padding: 10px; /* Less padding on smaller screens */
+        margin: 8px 0; /* Smaller vertical margins */
+    }
+}
+.about-profile-pic {
+    width: 200px; /* Smaller width */
+    height: 200px; /* Maintain aspect ratio with equal height */
+    border-radius: 70%; /* Keeps the image round */
+    margin-bottom: 40px; /* Space below the image */
+}
+
+
+
+
+
+.dark-content-box {
+    background-color: #222; /* Dark background for visibility and contrast */
+    color: #fff; /* White text for readability */
+    padding: 20px; /* Padding for spacing inside the box */
+    margin: 10px 0; /* Vertical spacing between boxes */
+    width: 100%; /* Full width to reach the right edge */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    box-sizing: border-box; /* Includes padding in width and height calculations */
+}
+
+/* Ensuring the About Me section's text content fills the screen */
+#about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center content horizontally */
+    justify-content: center; /* Align content to start from the top */
+    width: 100%; /* Use 100% of the screen's width */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Padding and border are included in width/height */
+    background-color: #333; /* Background color for the container */
+    color: #fff; /* Text color */
+}
+
+.text-content {
+    width: 100%; /* Use the full width of its parent */
+    max-width: none; /* Removes any maximum width constraints */
+    padding: 20px; /* Adequate padding around the text */
+    margin: 0; /* No additional margin to restrict the width */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    text-align: left; /* Align text to the left */
+}
+
+/* Apply specific styles to paragraphs to ensure they fill the width */
+.text-content p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* No padding inside the paragraphs */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#about-container, .text-content {
+    width: 100%;  /* Targets the maximum width */
+    max-width: 100%;  /* Ensures no limits are set beyond the viewport's width */
+    padding: 20px;  /* Maintains padding for spacing inside the container */
+    margin: 0;  /* Resets any margin that might be affecting width */
+    box-sizing: content-box; /* Ensures padding is included in width */
+}
+html, body {
+    width: 100%;  /* Ensures the html and body tags take up full screen width */
+    margin: 0;  /* Removes default margins */
+    padding: 0;  /* Removes default padding */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
+}
+
+@media (max-width: 768px) {
+    .text-content {
+        padding: 10px;  /* Less padding on smaller screens for more space */
+    }
+}
+
+.projects-section {
+    background-color: #222; /* Dark background for the section */
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.project {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+.project h2 {
+    color: #ccc;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.project a:hover {
+    background-color: #5599ff;
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .text-content {
+        width: 95%;  /* Allows for a bit more width usage on small screens */
+        padding: 0 10px;  /* Reduced padding on the sides */
+    }
+}
+
+@media (max-width: 480px) {
+    .text-content {
+        width: 100%;  /* Full width on very small screens */
+        padding: 0 5px;  /* Minimal side padding */
+    }
+}
+
+
+    
+@media (max-width: 768px) {
+    #about-container {
+        padding: 15px; /* Slightly less padding on smaller screens */
+        flex-direction: column;
+        justify-content: flex-start; /* Align content to the top on smaller screens */
+    }
+    .text-content {
+        padding: 15px;
+    }
+}
+
+
+
+
+
+h1, h2, p {
+    color: #fff; /* White text for readability */
+}
+#about-container .text-content {
+    text-align: left !important; 
+    padding: 20px !important;
+    margin-left: 20px !important;
+}
+
+
+/* Targeting the text content within about and resume sections specifically */
+.about-container .text-content, .resume-section .text-content {
+    text-align: left; /* Aligns text to the left */
+    width: 80%; /* Maintains a readable line width */
+    margin: auto; /* Centers the container */
+    padding-left: 20px; 
+    /* Adds padding to ensure text does not touch the container edge */
+}
+
+/* Ensures that headings within these sections are also aligned to the left */
+.about-container h1, .about-container h2, .resume-section h1, .resume-section h2 {
+    text-align: left;
+}
+
+/* Adjust list items within these sections to align text left */
+.about-container ul, .resume-section ul {
+    padding-left: 0; /* Removes padding that might indent items */
+}
+
+.about-container li, .resume-section li {
+    text-align: left; /* Ensures list items text aligns left */
+}
+
+/* Corrects paragraph alignment within these sections */
+.about-container p, .resume-section p {
+    text-align: left;
+}
+.about-container {
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+.profile-section {
+    margin: 0 auto;
+}
+
+.about-profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+
+
+    .text-content {
+        text-align: left;
+        padding: 20px;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: 'Encode Sans', sans-serif;
+    }
+    
+
+.profile-image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    width: 100%; /* Ensures the container takes full width */
+    margin-bottom: 20px; /* Adds space below the image */
+}
+
+
+.about-profile-pic {
+    width: 200px;  /* Increase the width */
+    height: 200px;  /* Ensure the height matches the width to maintain aspect ratio */
+    border-radius: 50%;  /* Circle shape */
+    margin-top: 20px;  /* Add top margin to push it downwards */
+    margin-bottom: 20px;  /* Space below the image */
+}
+
+
+
+h1, p {
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .text-content {
+        padding: 15px;  /* Slightly less padding on smaller screens */
+        font-size: 14px;  /* Smaller font size for smaller screens */
+    }
+    .about-profile-pic {
+        width: 150px;  /* Smaller image on smaller screens */
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-content {
+        padding: 10px;  /* Minimal padding on very small screens */
+        font-size: 12px;  /* Even smaller font size for readability */
+    }
+    .about-profile-pic {
+        width: 120px;  /* Even smaller image on very small screens */
+        height: 120px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .about-container {
+        margin: 20px; /* Smaller margin on smaller screens */
+        padding: 20px; /* Smaller padding on smaller screens */
+    }
+    .about-profile-pic {
+        width: 140px; /* Smaller profile pic on smaller devices */
+        height: 140px;
+        
+    }
+}
+
+
+.technical-skills {
+    background-color: #222; /* Darker shade of black for the section background */
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px; /* Adds space around the section */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5); /* Subtle shadow for 3D effect */
+}
+
+.category h2 {
+    color: #ccc; /* Light grey color for headings */
+}
+
+.category ul {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+}
+
+.category li {
+    background-color: #333; /* Slightly lighter black for items */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(255,255,255,0.1); /* Soft white shadow for depth */
+}
+/* Add this at the end of your existing CSS file */
+/* Base styles for the contact form */
+.contact-form-section {
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    width: 100%; /* Full width */
+    margin: 0 auto; /* Centering */
+}
+.contact-form-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Optional: takes the full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form-section {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Takes the full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%; /* Ensures the container takes full width */
+    margin: 0 auto; /* Helps in center alignment of the container */
+    background: #f0f0f0; /* Optional: for better visibility of the section */
+}
+
+.contact-form {
+    width: 100%; /* Full width to ensure it's responsive */
+    max-width: 500px; /* Maximum width of the form */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Adds depth */
+    background: #fff; /* Background color for form */
+    margin: 0 auto; /* Centers the form in the flex container */
+}
+
+
+    #about-container {
+        padding: 10px; /* Less padding to use more of the small screen */
+    }
+
+    .contact-form-section {
+        background-color: #000; /* Set background to black */
+        color: #fff; /* Set text color to white for contrast */
+        padding: 20px;
+        border-radius: 8px; /* Optional: adds rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds depth with a shadow */
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        width: 100%; /* Full width of the container */
+        margin: 0 auto; /* Centering the form section */
+        box-sizing: border-box; /* Include padding and border in the element's total dimensions */
+    }
+    
+    .contact-form {
+        width: 100%; /* Full width of the form */
+        max-width: 500px; /* Maximum width of the form */
+        background-color: #222; /* Slightly lighter black for the form background */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* Subtle shadow for aesthetics */
+    }
+    
+    .contact-form label {
+        color: #fff; /* White text for readability */
+        margin-bottom: 5px; /* Space below the label */
+        display: block; /* Ensures the label is on a new line */
+    }
+    
+    .contact-form input, .contact-form textarea {
+        width: 100%; /* Full width of the form */
+        padding: 10px;
+        margin-bottom: 10px; /* Space below each input/textarea */
+        background-color: #333; /* Darker background for input fields */
+        border: 1px solid #444; /* Subtle border for inputs */
+        color: #fff; /* Text color */
+        border-radius: 4px; /* Rounded corners */
+    }
+    
+    .contact-form input:focus, .contact-form textarea:focus {
+        border-color: #555; /* Lighter border when focused */
+        outline: none; /* Removes the default focus outline */
+    }
+    
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #444; /* Dark grey background for the button */
+        color: #fff; /* White text */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer; /* Pointer cursor on hover */
+        transition: background-color 0.3s; /* Smooth transition for background color */
+    }
+    
+    .contact-form button:hover {
+        background-color: #555; /* Slightly lighter on hover */
+    }
+    
+
+
+
+
+.contact-form {
+    max-width: 500px; /* Limiting form width for better layout */
+    margin: 0 auto; /* Centering the form */
+}
+
+.form-group label {
+    color: white;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.submit-button:hover {
+    background-color: #444;
+}
+
+/* Ensuring full width on larger screens */
+@media (min-width: 992px) {
+    .contact-form-section {
+        padding: 40px;
+    }
+}
